@@ -228,11 +228,13 @@ p{
   margin: 5% 3% 5% 0;
 }
 
-
+.img-parent{
+  position: relative;
 }
 .title-image{
   border-radius: 80%;
   width: 60%;
+  transform: rotate(25deg);
   position: absolute;
 }
 
@@ -260,14 +262,14 @@ p{
 
 
 .carousel-item{
-  padding: 7% ;
-  border-radius: 10%;
-  width: 60%;
-    
+  padding-left: 12%;
+  width: 85%;
+  height: 85%;
+  align-items: center;
 }
 
 .carousel-caption{
-
+  color: #C295D8;
   margin: : 10px 0px;
 }
 
@@ -287,6 +289,7 @@ p{
 .footer-icon{
   width:2%;
   margin: 0% 0% 3%;
+
 }
 
 @media (max-width: 1028px) {
